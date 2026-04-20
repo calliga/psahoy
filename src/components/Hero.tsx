@@ -104,7 +104,7 @@ export default function Hero() {
                 <div className="absolute inset-0 bg-gold-500/20 blur-[80px] rounded-full scale-75" />
                 <img
                   src="https://lh3.googleusercontent.com/d/10HMvmV943c7swFREFnopggFkfHTsJkox"
-                  alt="Código Divino - Ebook Principal"
+                  alt="Código Divino - Ebook"
                   className="relative w-full max-w-md lg:max-w-lg drop-shadow-[0_20px_60px_rgba(234,179,8,0.35)]"
                 />
               </div>
