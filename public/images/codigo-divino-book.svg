@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 550" width="400" height="550">
+  <defs>
+    <linearGradient id="coverGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a2744"/>
+      <stop offset="100%" style="stop-color:#0d1525"/>
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f4d03f"/>
+      <stop offset="50%" style="stop-color:#d4ac0d"/>
+      <stop offset="100%" style="stop-color:#f4d03f"/>
+    </linearGradient>
+    <linearGradient id="glowGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#ff8c00;stop-opacity:0.3"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Book Spine (right side) -->
+  <rect x="320" y="20" width="60" height="510" rx="3" fill="#f5f5f5"/>
+  <rect x="325" y="25" width="50" height="500" rx="2" fill="#e8e8e8"/>
+  
+  <!-- Main Book Cover -->
+  <rect x="20" y="20" width="300" height="510" rx="5" fill="url(#coverGradient)"/>
+  
+  <!-- Cover Border -->
+  <rect x="25" y="25" width="290" height="500" rx="3" fill="none" stroke="url(#goldGradient)" stroke-width="2"/>
+  
+  <!-- Title: CÓDIGO DIVINO -->
+  <text x="170" y="80" font-family="Georgia, serif" font-size="32" font-weight="bold" fill="url(#goldGradient)" text-anchor="middle">CÓDIGO</text>
+  <text x="170" y="120" font-family="Georgia, serif" font-size="32" font-weight="bold" fill="url(#goldGradient)" text-anchor="middle">DIVINO</text>
+  
+  <!-- Subtitle -->
+  <text x="170" y="155" font-family="Arial, sans-serif" font-size="9" fill="#d4ac0d" text-anchor="middle" font-weight="bold">COMPRENDE LA BIBLIA DE PRINCIPIO A FIN</text>
+  <text x="170" y="168" font-family="Arial, sans-serif" font-size="9" fill="#d4ac0d" text-anchor="middle" font-weight="bold">CON CLARIDAD, PROFUNDIDAD Y PODER ESPIRITUAL</text>
+  
+  <!-- Icons above book -->
+  <!-- Bible icon -->
+  <rect x="100" y="195" width="18" height="22" rx="2" fill="none" stroke="#d4ac0d" stroke-width="1.5"/>
+  <line x1="109" y1="198" x2="109" y2="214" stroke="#d4ac0d" stroke-width="1"/>
+  <line x1="104" y1="202" x2="114" y2="202" stroke="#d4ac0d" stroke-width="0.8"/>
+  <line x1="104" y1="206" x2="114" y2="206" stroke="#d4ac0d" stroke-width="0.8"/>
+  <line x1="104" y1="210" x2="114" y2="210" stroke="#d4ac0d" stroke-width="0.8"/>
+  
+  <!-- Tree icon -->
+  <ellipse cx="145" cy="212" rx="10" ry="12" fill="#d4ac0d"/>
+  <rect x="143" y="210" width="4" height="8" fill="#8b6914"/>
+  
+  <!-- Cross icon -->
+  <rect x="210" y="200" width="4" height="18" fill="#d4ac0d"/>
+  <rect x="204" y="205" width="16" height="4" fill="#d4ac0d"/>
+  
+  <!-- Open Bible with Glow -->
+  <!-- Glow effect behind -->
+  <ellipse cx="170" cy="280" rx="80" ry="60" fill="url(#glowGradient)" filter="url(#glow)"/>
+  
+  <!-- Left page -->
+  <path d="M 90 250 Q 130 240 170 260 L 170 330 Q 130 310 90 320 Z" fill="#f4e4bc" stroke="#d4ac0d" stroke-width="1"/>
+  <!-- Right page -->
+  <path d="M 250 250 Q 210 240 170 260 L 170 330 Q 210 310 250 320 Z" fill="#f4e4bc" stroke="#d4ac0d" stroke-width="1"/>
+  
+  <!-- Page details (lines) -->
+  <line x1="100" y1="265" x2="160" y2="275" stroke="#c9b896" stroke-width="1"/>
+  <line x1="100" y1="275" x2="160" y2="285" stroke="#c9b896" stroke-width="1"/>
+  <line x1="100" y1="285" x2="160" y2="295" stroke="#c9b896" stroke-width="1"/>
+  <line x1="100" y1="295" x2="160" y2="305" stroke="#c9b896" stroke-width="1"/>
+  
+  <line x1="180" y1="275" x2="240" y2="265" stroke="#c9b896" stroke-width="1"/>
+  <line x1="180" y1="285" x2="240" y2="275" stroke="#c9b896" stroke-width="1"/>
+  <line x1="180" y1="295" x2="240" y2="285" stroke="#c9b896" stroke-width="1"/>
+  <line x1="180" y1="305" x2="240" y2="295" stroke="#c9b896" stroke-width="1"/>
+  
+  <!-- Light rays from book -->
+  <line x1="170" y1="230" x2="170" y2="180" stroke="#ffd700" stroke-width="2" opacity="0.8"/>
+  <line x1="170" y1="230" x2="130" y2="190" stroke="#ffd700" stroke-width="1.5" opacity="0.6"/>
+  <line x1="170" y1="230" x2="210" y2="190" stroke="#ffd700" stroke-width="1.5" opacity="0.6"/>
+  <line x1="170" y1="230" x2="100" y2="210" stroke="#ffd700" stroke-width="1" opacity="0.4"/>
+  <line x1="170" y1="230" x2="240" y2="210" stroke="#ffd700" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Bottom text -->
+  <text x="170" y="400" font-family="Arial, sans-serif" font-size="9" fill="#e8e8e8" text-anchor="middle" font-style="italic">Un estudio visual y didáctico que revela los mis-</text>
+  <text x="170" y="415" font-family="Arial, sans-serif" font-size="9" fill="#e8e8e8" text-anchor="middle" font-style="italic">terios de toda la Biblia de forma clara y accesible</text>
+  
+  <!-- Decorative elements at bottom corners -->
+  <circle cx="50" cy="480" r="8" fill="none" stroke="#d4ac0d" stroke-width="1" opacity="0.5"/>
+  <circle cx="290" cy="480" r="8" fill="none" stroke="#d4ac0d" stroke-width="1" opacity="0.5"/>
+</svg>
