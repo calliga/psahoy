@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-300 mb-6">
             <a href="https://hotmart.com/pt-br/legal/termos-de-uso" target="_blank" rel="noopener noreferrer" className="hover:text-gold-400 transition-colors">Términos de Uso</a>
             <a href="https://hotmart.com/pt-br/legal/privacidade-de-dados" target="_blank" rel="noopener noreferrer" className="hover:text-gold-400 transition-colors">Política de Privacidad</a>
-            <a href="https://www.instagram.com/direct/t/18077087471229799" target="_blank" rel="noopener noreferrer" className="hover:text-gold-400 transition-colors">Contacto</a>
+            <a href="https://www.instagram.com/paz.salud.abundancia.hoy/" target="_blank" rel="noopener noreferrer" className="hover:text-gold-400 transition-colors">Contacto DM Instagram</a>
           </div>
           <p className="text-gray-400 text-xs">
             © {new Date().getFullYear()} Código Divino. Todos los derechos reservados.
